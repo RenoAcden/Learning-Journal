@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Web Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            padding: 10px 15px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #1abc9c;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+
+    <script>
+        function showMessage() {
+            alert("Thank you for checking my project!");
+        }
+    </script>
+
+</head>
+<body>
+
+<header>
+    <h1>My Web Development Project</h1>
+    <p>A Practical Implementation Using HTML, CSS, and JavaScript</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#project">Project Details</a>
+    <a href="#skills">Skills Used</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About This Project</h2>
+        <p>
+            I developed this web application to demonstrate my understanding of 
+            front-end development concepts. This project includes structured HTML,
+            internal CSS styling, and basic JavaScript functionality.
+        </p>
+        <p>
+            The objective of this project was to implement layout design, 
+            navigation structure, styling, and user interaction.
+        </p>
+    </div>
+</section>
+
+<section id="project">
+    <div class="card">
+        <h2>Project Explanation</h2>
+        <p>
+            I implemented a responsive layout with a navigation bar, content sections,
+            and interactive components. The design uses modern styling techniques
+            including box shadows, hover effects, and structured sections.
+        </p>
+        <p>
+            JavaScript is used to provide interactive functionality for user engagement.
+        </p>
+
+        <button class="btn" onclick="showMessage()">Click to Interact</button>
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Technologies Used</h2>
+        <ul>
+            <li>HTML5 for structure</li>
+            <li>CSS3 for styling and layout</li>
+            <li>JavaScript for interactivity</li>
+            <li>Responsive Design Principles</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Contact Information</h2>
+        <p>Email: yourname@example.com</p>
+        <p>GitHub: github.com/your-username</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Web Project | Developed as a Practice Implementation</p>
+</footer>
+
+</body>
+</html>
